@@ -155,10 +155,10 @@ const FunctionalTrainingLanding = () => {
                     <p className="text-center text-gray-500 mb-8 font-inter">Con el apoyo de</p>
                     <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16">
                         <a href="http://www.fundacionlacumbre.cl/" target="_blank" rel="noopener noreferrer" className="logo-container-item">
-                            <img src="https://www.practicayoga.cl/logo-fundacion-la-cumbre.png" alt="Fundación La Cumbre" className="h-16 md:h-20 opacity-80 hover:opacity-100 transition-opacity" />
+                            <img src="https://fundacionlacumbre.cl/images/logo.png" alt="Fundación La Cumbre" className="h-16 md:h-20 opacity-80 hover:opacity-100 transition-opacity" />
                         </a>
                         <a href="http://www.mindep.cl/" target="_blank" rel="noopener noreferrer" className="logo-container-item">
-                            <img src="https://www.practicayoga.cl/logo-donaciones.jpg" alt="Mindep" className="h-16 md:h-20 opacity-80 hover:opacity-100 transition-opacity" />
+                            <img src="https://funglobalsports.cl/wp-content/uploads/2019/10/Logotipo-Donaciones-2017-vectorial-copia-908x1024.jpg" alt="Mindep" className="h-16 md:h-20 opacity-80 hover:opacity-100 transition-opacity" />
                         </a>
                     </div>
                 </div>
