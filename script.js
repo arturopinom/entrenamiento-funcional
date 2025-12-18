@@ -95,13 +95,13 @@ const FunctionalTrainingLanding = () => {
             {/* Hero Section */}
             <section className="relative min-h-screen flex items-center justify-center text-white">
                 <div className="video-container absolute inset-0 z-0 hidden md:block">
-                    <iframe 
-                        src="https://www.youtube.com/watch?v=4t-L0kDIuJc"
-                        title="Entrenamiento Funcional Video"
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowFullScreen
-                    ></iframe>
+          <iframe 
+  src="https://www.youtube.com/embed/4t-L0kDIuJc?autoplay=1&mute=1&controls=0&loop=1&playlist=4t-L0kDIuJc"
+  title="Entrenamiento Funcional Video"
+  frameBorder="0"
+  allow="autoplay; encrypted-media; picture-in-picture"
+  allowFullScreen
+></iframe>
                 </div>
                 
                 <div className="hero-overlay absolute inset-0 z-10 md:hidden"></div>
@@ -137,14 +137,14 @@ const FunctionalTrainingLanding = () => {
                         Descubre el Entrenamiento Funcional
                     </h2>
                     <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
-                        <iframe 
-                            className="absolute top-0 left-0 w-full h-full rounded-2xl shadow-xl"
-                            src="https://youtu.be/4t-L0kDIuJc"
-                            title="Entrenamiento Funcional Video"
-                            frameBorder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowFullScreen
-                        ></iframe>
+                       <iframe 
+  className="absolute top-0 left-0 w-full h-full rounded-2xl shadow-xl"
+  src="https://www.youtube.com/embed/4t-L0kDIuJc"
+  title="Entrenamiento Funcional Video"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+></iframe>
                     </div>
                 </div>
             </section>
