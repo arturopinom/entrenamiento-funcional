@@ -139,7 +139,7 @@ const FunctionalTrainingLanding = () => {
                     <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
                         <iframe 
                             className="absolute top-0 left-0 w-full h-full rounded-2xl shadow-xl"
-                            src="https://www.youtube.com/embed/ixkQaZXVQjs?controls=1&showinfo=0&rel=0&modestbranding=1"
+                            src="https://youtu.be/4t-L0kDIuJc"
                             title="Entrenamiento Funcional Video"
                             frameBorder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
