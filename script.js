@@ -96,7 +96,7 @@ const FunctionalTrainingLanding = () => {
             <section className="relative min-h-screen flex items-center justify-center text-white">
                 <div className="video-container absolute inset-0 z-0 hidden md:block">
                     <iframe 
-                        src="https://www.youtube.com/embed/ixkQaZXVQjs?controls=1&rel=0&modestbranding=1&fs=1"
+                        src="https://youtu.be/4t-L0kDIuJc"
                         title="Entrenamiento Funcional Video"
                         frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
