@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow-x: hidden;
+    color: #1a1a1a;
+    background: white;
+}
+
+/* Hide any content that's not inside the React root */
+body > *:not(#root):not(script) {
+    display: none !important;
+}
+
+#root {
+    position: relative;
+    z-index: 1;
+}
+
+.font-inter {
+    font-family: 'Inter', sans-serif;
+}
+
+.font-dm {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.hero-overlay {
+    background: linear-gradient(180deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.40) 100%);
+}
+
+.animate-fade-in {
+    animation: fadeIn 0.8s ease-out forwards;
+    opacity: 0;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fade-in {
+    transform: translateY(20px);
+}
+
+.card-hover {
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-hover:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.btn-primary {
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 24px rgba(234, 88, 12, 0.3);
+}
+
+.parallax-section {
+    transition: transform 0.5s ease-out;
+}
+
+/* Gradient naranja-verde para entrenamiento funcional */
+.gradient-text {
+    background: linear-gradient(135deg, #EA580C 0%, #16A34A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.icon-container {
+    transition: all 0.3s ease;
+}
+
+.icon-container:hover {
+    transform: scale(1.1);
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 100%;
+    max-width: 100vw;
+    max-height: 100vh;
+    aspect-ratio: 16/9;
+}
+
+.logo-bar {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+}
+
+.logo-bar.transparent {
+    background: transparent;
+    box-shadow: none;
+    backdrop-filter: none;
+}
+
+.logo-bar.hidden-bar {
+    transform: translateY(-100%);
+    opacity: 0;
+}
+
+.logo-container-item {
+    transition: transform 0.3s ease;
+}
+
+.logo-container-item:hover {
+    transform: scale(1.05);
+}
+
+/* Mobile video section - hidden on desktop */
+.mobile-video-section {
+    display: none;
+}
+
+/* Swiper styles for mobile */
+.swiper-container {
+    width: 100%;
+    padding: 20px 0 40px 0;
+}
+
+.swiper-pagination-bullet {
+    background: #EA580C;
+    opacity: 0.5;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #16A34A;
+}
+
+/* Hide swiper on desktop, show grid */
+.desktop-grid {
+    display: grid;
+}
+
+.mobile-swiper {
+    display: none;
+}
+
+/* Intensity selector styles */
+.intensity-card {
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.intensity-card:hover {
+    transform: scale(1.05);
+    border-color: #EA580C;
+}
+
+.intensity-card.active {
+    border-color: #16A34A;
+    box-shadow: 0 0 20px rgba(22, 163, 74, 0.3);
+}
+
+@media (max-width: 768px) {
+    html, body {
+        overflow-x: hidden;
+        max-width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
+    
+    /* Mostrar sección de video en mobile */
+    .mobile-video-section {
+        display: block !important;
+    }
+    
+    /* Show swiper on mobile, hide grid */
+    .desktop-grid {
+        display: none !important;
+    }
+    
+    .mobile-swiper {
+        display: block !important;
+    }
+    
+    /* Ocultar video del hero en mobile */
+    .video-container {
+        display: none;
+    }
+    
+    /* Imagen de fondo estática profesional en mobile para el hero */
+    section:first-of-type {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+        background-image: url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1200&h=1600&fit=crop&q=90');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .hero-overlay {
+        background: linear-gradient(180deg, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.45) 100%);
+    }
+    
+    /* Mejoras de legibilidad en mobile */
+    section:first-of-type h1 {
+        font-size: 2.5rem !important;
+        line-height: 1.1 !important;
+        text-shadow: 0 2px 20px rgba(0,0,0,0.5);
+    }
+    
+    section:first-of-type p {
+        font-size: 1.125rem !important;
+        text-shadow: 0 2px 15px rgba(0,0,0,0.5);
+    }
+    
+    section:first-of-type button {
+        box-shadow: 0 4px 20px rgba(234, 88, 12, 0.4);
+    }
+    
+    /* Ocultar cualquier texto decorativo del body */
+    body::before,
+    body::after {
+        display: none !important;
+    }
+}
