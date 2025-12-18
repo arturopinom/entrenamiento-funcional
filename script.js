@@ -84,10 +84,10 @@ const FunctionalTrainingLanding = () => {
             <div className={`logo-bar fixed top-0 left-0 right-0 z-50 py-3 px-4 ${isBarTransparent ? 'transparent' : ''} ${!isBarVisible ? 'hidden-bar' : ''}`}>
                 <div className="max-w-7xl mx-auto flex justify-between items-center">
                     <a href="http://www.fundacionlacumbre.cl/" target="_blank" rel="noopener noreferrer" className="logo-container-item">
-                        <img src="https://www.practicayoga.cl/logo-fundacion-la-cumbre.png" alt="Fundación La Cumbre" className="h-10 md:h-12" />
+                        <img src="https://fundacionlacumbre.cl/images/logo.png" alt="Fundación La Cumbre" className="h-10 md:h-12" />
                     </a>
                     <a href="http://www.mindep.cl/" target="_blank" rel="noopener noreferrer" className="logo-container-item">
-                        <img src="https://www.practicayoga.cl/logo-donaciones.jpg" alt="Mindep" className="h-10 md:h-12" />
+                        <img src="https://funglobalsports.cl/wp-content/uploads/2019/10/Logotipo-Donaciones-2017-vectorial-copia-908x1024.jpg" alt="Mindep" className="h-10 md:h-12" />
                     </a>
                 </div>
             </div>
@@ -310,7 +310,7 @@ const FunctionalTrainingLanding = () => {
                             />
                             <div className="absolute -bottom-6 -left-6 bg-white p-4 rounded-xl shadow-lg">
                                 <a href="http://www.mindep.cl/" target="_blank" rel="noopener noreferrer">
-                                    <img src="https://www.practicayoga.cl/logo-donaciones.jpg" alt="Mindep" className="h-12" />
+                                    <img src="https://funglobalsports.cl/wp-content/uploads/2019/10/Logotipo-Donaciones-2017-vectorial-copia-908x1024.jpg" alt="Mindep" className="h-12" />
                                 </a>
                             </div>
                         </div>
@@ -568,7 +568,7 @@ const FunctionalTrainingLanding = () => {
                             className="card-hover bg-white rounded-2xl p-8 text-center shadow-lg"
                         >
                             <img 
-                                src="https://www.practicayoga.cl/logo-fundacion-la-cumbre.png" 
+                                src="https://fundacionlacumbre.cl/images/logo.png" 
                                 alt="Fundación La Cumbre" 
                                 className="h-20 mx-auto mb-6"
                             />
@@ -586,7 +586,7 @@ const FunctionalTrainingLanding = () => {
                             className="card-hover bg-white rounded-2xl p-8 text-center shadow-lg"
                         >
                             <img 
-                                src="https://www.practicayoga.cl/logo-donaciones.jpg" 
+                                src="https://funglobalsports.cl/wp-content/uploads/2019/10/Logotipo-Donaciones-2017-vectorial-copia-908x1024.jpg" 
                                 alt="Mindep" 
                                 className="h-20 mx-auto mb-6"
                             />
@@ -651,10 +651,10 @@ const FunctionalTrainingLanding = () => {
                             <h4 className="font-dm text-lg font-bold mb-4">Apoyado por</h4>
                             <div className="flex justify-center gap-6">
                                 <a href="http://www.fundacionlacumbre.cl/" target="_blank" rel="noopener noreferrer">
-                                    <img src="https://www.practicayoga.cl/logo-fundacion-la-cumbre.png" alt="Fundación La Cumbre" className="h-10 opacity-70 hover:opacity-100 transition-opacity" />
+                                    <img src="https://fundacionlacumbre.cl/images/logo.png" alt="Fundación La Cumbre" className="h-10 opacity-70 hover:opacity-100 transition-opacity" />
                                 </a>
                                 <a href="http://www.mindep.cl/" target="_blank" rel="noopener noreferrer">
-                                    <img src="https://www.practicayoga.cl/logo-donaciones.jpg" alt="Mindep" className="h-10 opacity-70 hover:opacity-100 transition-opacity" />
+                                    <img src="https://funglobalsports.cl/wp-content/uploads/2019/10/Logotipo-Donaciones-2017-vectorial-copia-908x1024.jpg" alt="Mindep" className="h-10 opacity-70 hover:opacity-100 transition-opacity" />
                                 </a>
                             </div>
                         </div>
