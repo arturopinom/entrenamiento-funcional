@@ -549,21 +549,13 @@ const FunctionalTrainingLanding = () => {
                     <p className="font-inter text-xl mb-8 opacity-90">
                         Motívate y comienza el entrenamiento de acuerdo con tus necesidades
                     </p>
-                    <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                    <div className="flex justify-center">
                         <button 
                             onClick={findTrainingCenter}
                             className="bg-white text-orange-600 hover:bg-gray-100 px-10 py-4 rounded-full text-lg font-semibold transition-all shadow-lg"
                         >
                             Encuentra tu Centro de Entrenamiento
                         </button>
-                        <a 
-                            href="http://www.fundacionlacumbre.cl/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-green-600 px-10 py-4 rounded-full text-lg font-semibold transition-all"
-                        >
-                            Conoce Fundación La Cumbre
-                        </a>
                     </div>
                 </div>
             </section>
