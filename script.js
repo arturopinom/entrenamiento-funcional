@@ -96,7 +96,7 @@ const FunctionalTrainingLanding = () => {
             <section className="relative min-h-screen flex items-center justify-center text-white">
                 <div className="video-container absolute inset-0 z-0 hidden md:block">
           <iframe 
-  src="https://www.youtube.com/embed/4t-L0kDIuJc?autoplay=1&mute=1&controls=0&loop=1&playlist=4t-L0kDIuJc"
+  src="https://www.youtube.com/embed/4t-L0kDIuJc?autoplay=1&mute=1&loop=1&playlist=4t-L0kDIuJc"
   title="Entrenamiento Funcional Video"
   frameBorder="0"
   allow="autoplay; encrypted-media; picture-in-picture"
@@ -292,14 +292,6 @@ const FunctionalTrainingLanding = () => {
                                 >
                                     Explora los tipos
                                 </button>
-                                <a 
-                                    href="http://www.fundacionlacumbre.cl/"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-full font-semibold transition-all text-center"
-                                >
-                                    Más info en Fundación La Cumbre
-                                </a>
                             </div>
                         </div>
                         <div className="relative">
@@ -548,58 +540,6 @@ const FunctionalTrainingLanding = () => {
                 </div>
             </section>
 
-            {/* Resources Section */}
-            <section className="py-20 px-4 bg-gradient-to-br from-orange-50 to-green-50">
-                <div className="max-w-7xl mx-auto">
-                    <div className="text-center mb-16">
-                        <h2 className="font-dm text-4xl md:text-5xl font-bold mb-4 text-gray-900">
-                            Recursos y Apoyo
-                        </h2>
-                        <p className="font-inter text-xl text-gray-600 max-w-3xl mx-auto">
-                            Conoce las organizaciones que promueven el deporte y la vida activa en Chile
-                        </p>
-                    </div>
-
-                    <div className="grid md:grid-cols-2 gap-8">
-                        <a 
-                            href="http://www.fundacionlacumbre.cl/" 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className="card-hover bg-white rounded-2xl p-8 text-center shadow-lg"
-                        >
-                            <img 
-                                src="https://fundacionlacumbre.cl/images/logo.png" 
-                                alt="Fundación La Cumbre" 
-                                className="h-20 mx-auto mb-6"
-                            />
-                            <h3 className="font-dm text-2xl font-bold mb-3 text-gray-900">Fundación La Cumbre</h3>
-                            <p className="font-inter text-gray-600 leading-relaxed mb-4">
-                                Organización dedicada a promover el bienestar y la actividad física en Chile a través de programas accesibles para toda la comunidad.
-                            </p>
-                            <span className="text-orange-600 font-semibold">Visitar sitio →</span>
-                        </a>
-
-                        <a 
-                            href="http://www.mindep.cl/" 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className="card-hover bg-white rounded-2xl p-8 text-center shadow-lg"
-                        >
-                            <img 
-                                src="https://funglobalsports.cl/wp-content/uploads/2019/10/Logotipo-Donaciones-2017-vectorial-copia-908x1024.jpg" 
-                                alt="Mindep" 
-                                className="h-20 mx-auto mb-6"
-                            />
-                            <h3 className="font-dm text-2xl font-bold mb-3 text-gray-900">Ministerio del Deporte</h3>
-                            <p className="font-inter text-gray-600 leading-relaxed mb-4">
-                                El Ministerio del Deporte de Chile trabaja para fomentar la práctica deportiva y promover estilos de vida saludables en toda la población.
-                            </p>
-                            <span className="text-green-600 font-semibold">Visitar sitio →</span>
-                        </a>
-                    </div>
-                </div>
-            </section>
-
             {/* CTA Section */}
             <section className="py-20 px-4 bg-gradient-to-br from-orange-600 to-green-500 text-white">
                 <div className="max-w-4xl mx-auto text-center">
@@ -631,22 +571,7 @@ const FunctionalTrainingLanding = () => {
             {/* Footer */}
             <footer className="bg-gray-900 text-white py-12 px-4">
                 <div className="max-w-7xl mx-auto">
-                    <div className="grid md:grid-cols-3 gap-8 mb-8">
-                        <div className="text-center md:text-left">
-                            <h4 className="font-dm text-lg font-bold mb-4">Recursos</h4>
-                            <ul className="space-y-2">
-                                <li>
-                                    <a href="http://www.fundacionlacumbre.cl/" target="_blank" rel="noopener noreferrer" className="hover:text-orange-400 transition-colors">
-                                        Fundación La Cumbre
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="http://www.mindep.cl/" target="_blank" rel="noopener noreferrer" className="hover:text-orange-400 transition-colors">
-                                        Ministerio del Deporte
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
+                    <div className="grid md:grid-cols-2 gap-8 mb-8">
                         <div className="text-center">
                             <h4 className="font-dm text-lg font-bold mb-4">Apoyado por</h4>
                             <div className="flex justify-center gap-6">
